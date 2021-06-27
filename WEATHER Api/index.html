@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App Project</title>
+    <link rel="stylesheet" href="style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <h1 class="heading text-center my-4">Weather App</h1>
+        <form class="change-location text-center my-4">
+            <label for="city">Enter location for weather info</label>
+            <input type="text" name="city" class="search-input form-control p-4">
+        </form>
+
+        <div class="card shadow-lg rounded d-none">
+            <img src="https://via.placeholder.com/400x300" alt="" class="time card-img-top">
+            <div class="icon text-center bg-light mx-auto">
+                <!-- icon -->
+                <img src="">
+            </div>
+            <div class="text-center text-uppercase details">
+                <h5 class="my-3">City name</h5>
+                <div class="my-3">Weaather Condition</div>
+                <div class="display-4 my-4">
+                    <span>temp</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="forecast.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

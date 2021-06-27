@@ -1,0 +1,36 @@
+body {
+  background: #c8d6e5;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+}
+
+.container {
+  max-width: 400px;
+  color: rgb(0, 0, 0);
+}
+
+.heading {
+  background: #14d1d8;
+}
+
+.search-input {
+  padding: 0 3px;
+  border-radius: 5px;
+}
+
+.card {
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
+
+#idd {
+  background-color: #14d1d8;
+}
